@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    /* background-image: url(/imagens/fundo.png); */
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+}
+
+.principal{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 40vh;
+}
+
+input[type=text]{
+    border: none;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 50px;
+    outline: 0;    
+    letter-spacing: 5px;
+    background-color: black;
+    border-bottom: 3px solid white;
+}
+button[type=text]{
+    border: none;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 50px;
+    outline: 0;    
+    letter-spacing: 5px;
+    background-color: black;
+    border-bottom: 3px solid white;
+}
+
+input[type=text]:focus{
+    color: white;
+}
+
+button{
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0;
+    margin-top: 5px;
+    padding: 10px;
+    font-size: 25px;
+    outline: 0;
+    cursor: pointer;
+    background-color: gold;
+    color: black;
+}
+
+button:hover{
+    background-color: goldenrod;
+    color: black;
+}
